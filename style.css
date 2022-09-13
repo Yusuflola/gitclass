@@ -1,0 +1,54 @@
+h1 {
+    color: green;
+}
+
+body {
+    color: red;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}
+
+
+
+.btn {
+    height: 30px;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px, solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-bck {
+    background-color: rgb(82, 103, 159);
+    border: 0px;
+    color: rgb(25, 30, 121);
+}
+
+.btn-border-color {
+    border: 1px solid rgb(82, 103, 159);
+    background-color: transparent;
+    color: rgb(82, 103, 159);
+}
+
+.btn-plain {
+    border: 0px solid;
+    background-color: transparent;
+    color: rgb(82, 103, 159);
+}
+
+.form {
+   display: flex;
+}
+
